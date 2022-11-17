@@ -9,7 +9,8 @@ class AddCell extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: Text('Inscription')),
-        body: Column(children: [
+        body: SingleChildScrollView(
+            child: Column(children: [
           Image.asset("Assets/minecraft.jpg", width: 380),
           const Padding(
             padding: EdgeInsets.all(8.0),
@@ -77,6 +78,6 @@ class AddCell extends StatelessWidget {
               )
             ],
           )
-        ]));
+        ])));
   }
 }

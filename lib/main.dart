@@ -1,5 +1,8 @@
+import 'package:ateliercross/DetailsScreen.dart';
 import 'package:ateliercross/add_cell.dart';
 import 'package:ateliercross/home_screen.dart';
+import 'package:ateliercross/home_screen_grid.dart';
+import 'package:ateliercross/login.dart';
 import 'package:flutter/material.dart';
 
 import 'cell_detail.dart';
@@ -28,7 +31,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: AddCell());
+        home: const HomeScreenGrid());
     // CellDetail(
     //     "dmc5.jpg",
     //     "Devil may cry",

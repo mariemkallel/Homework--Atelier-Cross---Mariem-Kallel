@@ -9,6 +9,7 @@ class CellDetail extends StatelessWidget {
   final String description;
   final double price;
   CellDetail(this.image, this.title, this.description, this.price);
+  int nbr = 3000;
 
   @override
   Widget build(BuildContext context) {
